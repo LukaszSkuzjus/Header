@@ -40,7 +40,15 @@ header {
 .kolko-kwadrat-rotate {
   transform: rotate(360deg); }
 
-.squareInvisibleOverlay {
+.squareInvisibleOverHamburger-menu {
+  float: right;
+  margin-right: 40px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  /* Your Color */ }
+
+.squareInvisibleOverKolko-kwadrat {
   margin: auto;
   margin-top: -104px;
   width: 104px;
@@ -91,12 +99,13 @@ header {
 /* mobile menu */
 .mobile-menu {
   background-color: #001820;
-  height: 150vh;
-  padding-top: 30px; }
+  height: 310px;
+  padding-top: 30px;
+  display: none; }
 
 .fa-times {
   float: right;
-  margin-right: 18vw;
+  margin-right: 14vw;
   color: white; }
 
 .mobile-menu ul {
@@ -126,5 +135,13 @@ header {
   display: inline-block;
   width: 80px;
   margin-top: -40px; }
+
+@media (min-width: 450px) {
+  .fa-times {
+    margin-right: 24vw; } }
+
+@media (min-width: 620px) {
+  .fa-times {
+    margin-right: 28vw; } }
 
 /*# sourceMappingURL=css.css.map */
